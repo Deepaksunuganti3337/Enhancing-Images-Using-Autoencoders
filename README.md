@@ -4,17 +4,17 @@ In recent years, image enhancement has become a crucial task across various fiel
 enhanced by integrating data augmentation techniques, which help improve the model’s generalization ability by artificially
 expanding the training dataset. We evaluate the effectiveness of this model on various datasets using two key evaluation
 metrics: Mean Squared Error (MSE) and Structural Similarity Index (SSIM). The results demonstrate that the proposed architecture significantly improves image quality, with a marked increase in SSIM and a decrease in MSE compared to the
-original low-resolution images. Our study illustrates the potential of autoencoders for image enhancement tasks, providing a powerful tool for improving image clarity in multiple domains.
+original low-resolution images. Our study illustrates the potential of autoencoders for image enhancement tasks, providing a powerful tool for improving image clarity in multiple domains.
 
-Keywords: Image Enhancement, Autoencoders, Convolutional Neural Networks (CNNs), Data Augmentation, MSE,
+Keywords: Image Enhancement, Autoencoders, Convolutional Neural Networks (CNNs), Data Augmentation, MSE,
 SSIM, Deep Learning.
 
 II. INTRODUCTION
 
-Image enhancement plays a crucial role in various fields such as medical imaging, satellite imagery, and digital photography, where the quality of the image significantly affects analysis, visualization, and interpretation. Advanced deep learning techniques, particularly autoencoders, have shown great promise in improving image quality by addressing tasks
-like denoising, super-resolution, and detail restoration. Convolutional Autoencoders (CAEs) are particularly well-suited
+Image enhancement plays a crucial role in various fields such as medical imaging, satellite imagery, and digital photography, where the quality of the image significantly affects analysis, visualization, and interpretation. Advanced deep learning techniques, particularly autoencoders, have shown great promise in improving image quality by addressing tasks
+like denoising, super-resolution, and detail restoration. Convolutional Autoencoders (CAEs) are particularly well-suited
 for image enhancement, as they utilize convolutional layers that capture spatial hierarchies and patterns in image data.
-However, training autoencoders on small datasets can result in overfitting, limiting their generalization capability. To address this issue, data augmentation techniques are employed to artificially increase the size and diversity of the training dataset, thereby improving the model’s ability to generalize across various image types and conditions. This paper investigates the application of CAEs for image enhancement with data augmentation, focusing on restoring fine details, reducing noise, and improving overall image clarity.
+However, training autoencoders on small datasets can result in overfitting, limiting their generalization capability. To address this issue, data augmentation techniques are employed to artificially increase the size and diversity of the training dataset, thereby improving the model’s ability to generalize across various image types and conditions. This paper investigates the application of CAEs for image enhancement with data augmentation, focusing on restoring fine details, reducing noise, and improving overall image clarity.
 
 III. OBJECTIVES
 
